@@ -1,0 +1,24 @@
+#This is a single line comment
+
+"""
+This is a multi line comment.
+Neither this nor the single line comment wil not effect the code. 
+
+"""
+
+
+#This is a message to the user with the choices 
+response = input("How are you doing?(input is case sensitive) \ngood"
+                 "\nswell \nexcellent \nbad \nbadly \nterrible \n")
+
+if response == "good" or response == "swell" or response == "excellent":
+    print("That's just " + response)
+
+elif response == "bad" or response == "badly" or response == "terrible":
+    print("Things are going " + response  + " for you.")
+
+else:
+    print("Try again")
+
+
+
